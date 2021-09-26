@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    background-color: rgb(55, 18, 120);
+    height: 60px;
+}
+
+#header p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+
+}
+
+#container .profile {
+    background-color: rgb(131, 136, 165);
+    padding: 10px;
+}
+
+#container .profile li {
+    color: rgb(38, 57, 57);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#content {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#content .calculator,
+#content .blog {
+    background-color: rgb(20, 55, 86);
+    height: 200px;
+    width: 600px;
+    margin: 80px auto;
+}
+
+#content .calculator a,
+#content .blog a {
+    color: rgb(147, 164, 193);
+    background-color:rgb(58, 97, 103);
+    line-height:200px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+}
+
+
+
+
+

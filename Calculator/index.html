@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="calculator-value">0</div>
+        <div class="buttons-container">
+            <div class="button function clearScreen" onclick='onClearScreen()'>AC</div>
+            <div class="button function negative" data-value = "negative" onclick='onNumberClick(this)'>+/-</div>
+            <div class="button function percent" data-value='percent' onclick='onNumberClick(this)'>%</div>
+            <div class="button operator division" data-value='divide' onclick='onOperationClick(this)'>÷</div>
+            <div class="button number-7" data-value = "7" onclick='onNumberClick(this)'>7</div>
+            <div class="button number-8" data-value = "8" onclick='onNumberClick(this)'>8</div>
+            <div class="button number-9" data-value = "9" onclick='onNumberClick(this)'>9</div>
+            <div class="button operator multiplication" data-value='multiply' onclick='onOperationClick(this)'>×</div>
+            <div class="button number-4" data-value = "4" onclick='onNumberClick(this)'>4</div>
+            <div class="button number-5" data-value = "5" onclick='onNumberClick(this)'>5</div>
+            <div class="button number-6" data-value = "6" onclick='onNumberClick(this)'>6</div>
+            <div class="button operator subtraction" data-value='subtract' onclick='onOperationClick(this)'>−</div>
+            <div class="button number-1" data-value = "1" onclick='onNumberClick(this)'>1</div>
+            <div class="button number-2" data-value = "2" onclick='onNumberClick(this)'>2</div>
+            <div class="button number-3" data-value = "3" onclick='onNumberClick(this)'>3</div>
+            <div class="button operator addition" data-value='add' onclick='onOperationClick(this)'>+</div>
+            <div class="button number-0" data-value = "0" onclick='onNumberClick(this)'>0</div>
+            <div class="button decimal" data-value = "." onclick='onNumberClick(this)'>.</div>
+            <div class="button operator equal" data-value='equal' onclick='onOperationClick(this)'>=</div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
